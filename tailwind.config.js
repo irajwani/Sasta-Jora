@@ -9,10 +9,12 @@ module.exports = {
         desktop: '1248px'
       },
       fontFamily: {
-        montserrat: 'Montserrat',
-        serif: 'PTSerif'
+        primary: "'Montserrat', sans-serif",
+        serif: 'PTSerif',
+        roboto: "'Roboto', sans-serif"
       },
       colors: {
+        black: '#120f07',
         maroon: '#7d0e2d',
         gold: '#f5dd05',
         white: '#ffffff',

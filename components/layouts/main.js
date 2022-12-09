@@ -3,9 +3,9 @@ import Nav from "../nav"
 
 const Main = ({children, router}) => {
     return (
-        <main className="flex flex-col max-w-full min-h-screen p-8 mx-auto font-serif bg-paper md:flex-row">
+        <main className="flex flex-col max-w-full min-h-screen p-8 mx-auto font-roboto bg-paper">
             <Head>
-                <title>Hajira Maryam</title>
+                <title>Sasta Kapra</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav path={router.asPath}/>

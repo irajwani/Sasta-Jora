@@ -5,6 +5,7 @@ import { MenuAlt3Icon } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 
 import { useRouter } from 'next/router'
+import Search from './form/search'
 
 const LINKS = [
     {title: 'About', link: '/'},
@@ -95,14 +96,21 @@ function Nav() {
 
     // console.log(router.route);
     return (
-        <nav className='flex justify-between w-full md:w-1/5 md:flex-col md:flex-none md:justify-start md:items-start md:mb-8 md:px-4 md:py-0 md:space-y-8'>
+        <nav className='flex items-center justify-between w-full'>
+
+            {/* Search */}
+            <Search />
+
+            {/* Logo/Company Name */}
+
+            {/* Icons (Profile & Cart) */}
         
-            <div>
+            {/* <div>
                 <a href="/" className="text-2xl font-normal text-gray-700 transition duration-300 hover:text-gray-400 md:text-2xl ">Hajira Maryam</a>
                 {renderFooter()}
             </div>
             {renderMenu()}
-            {renderMobileMenu()}
+            {renderMobileMenu()} */}
         </nav>
     )    
 }
